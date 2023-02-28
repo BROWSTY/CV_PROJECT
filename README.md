@@ -6,10 +6,10 @@ will allow us to obtain better results and a network with more accurate predicti
 be located that could lead to cervical cancer.
 
 ## Requirements
-- pytorch13+CUDA (the version depends on your CUDA version.)
-- tensoflow 2.9.2
+- pytorch==1.10.1  for CUDA 11.3 (the version depends on your CUDA version.)
+- tensoflow==2.9.2
 - keras
-- opencv 4.6.6
+- opencv==4.6.6
 - matplotlib 
 - tqdm
 
@@ -32,6 +32,4 @@ The following drive link contain the classification trained model and the datase
   4 -> Squamous cell carcinoma
 
 With a total of 4000 training images and 800 images for validation.
-
-**Important:** The detection trained model is not provided because it not takes more than five minutes to train.
 
