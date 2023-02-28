@@ -15,8 +15,10 @@ be located that could lead to cervical cancer.
 
 Make sure that other common libraries such as numpy works correctly with the other library versions.
 
-## Remark
-The following drive link contains the classification trained model and the datasets used for training the two stages.
+## Dataset
+The following drive link contain the classification trained model and the datasets used for training the two stages. 
 
-Drive link:  https://drive.google.com/drive/folders/1fz9-srsO7EBUKztheth8f1W_g1DAySB_?usp=sharing
+**Drive link:**  https://drive.google.com/drive/folders/1fz9-srsO7EBUKztheth8f1W_g1DAySB_?usp=sharing
+
+**NOTA:** The detection trained model is not provided because it not takes more than five minutes to train.
 
