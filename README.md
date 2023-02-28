@@ -10,7 +10,7 @@ be located that could lead to cervical cancer.
 - matplotlib 
 - tqdm
 
-Also, it is neccesary the following libraries
+It is necessary to consider the following versions of these libraries
 
 | Library  | Version |
 | ---------| ------- |
