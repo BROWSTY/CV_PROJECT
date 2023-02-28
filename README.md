@@ -16,7 +16,7 @@ Make sure that other common libraries such as numpy works correctly with the oth
 
 ## Remark
 The following drive link contain the classification trained model and the datasets used for training the two stages. The detection trained model is not provided because it not takes more than five minutes to train.
-33##
+
 ## Dataset
 Drive link:  https://drive.google.com/drive/folders/1fz9-srsO7EBUKztheth8f1W_g1DAySB_?usp=sharing
 
