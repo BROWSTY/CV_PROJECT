@@ -20,5 +20,5 @@ The following drive link contain the classification trained model and the datase
 
 **Drive link:**  https://drive.google.com/drive/folders/1fz9-srsO7EBUKztheth8f1W_g1DAySB_?usp=sharing
 
-**NOTA:** The detection trained model is not provided because it not takes more than five minutes to train.
+**Important:** The detection trained model is not provided because it not takes more than five minutes to train.
 
