@@ -12,6 +12,7 @@ be located that could lead to cervical cancer.
 - opencv 4.6.6
 - matplotlib 
 - tqdm
+
 Make sure that other common libraries such as numpy works correctly with the other library versions.
 
 ## Remark
