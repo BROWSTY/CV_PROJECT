@@ -6,12 +6,19 @@ will allow us to obtain better results and a network with more accurate predicti
 be located that could lead to cervical cancer.
 
 ## Requirements
-- pytorch==1.10.1  for CUDA 11.3 (the version depends on your CUDA version.)
-- tensoflow==2.9.2
 - keras
-- opencv==4.6.6
 - matplotlib 
 - tqdm
+
+Also, it is neccesary the following libraries
+
+| Library  | Version |
+| ---------| ------- |
+| pytorch  | 1.10.1 |
+| tensoflow| 2.9.2  |
+| opencv   | 4.6.6  |
+
+**Consideration:** pytorch==1.10.1  for CUDA 11.3 (the version depends on your CUDA version.)
 
 Make sure that other common libraries such as numpy works correctly with the other library versions.
 
@@ -26,10 +33,10 @@ The following drive link contain the classification trained model and the datase
    Isolated cell database. Images corresponding to liquid-based Pap smears.
    Database classified into four categories:
   
-  1 -> High squamous intra-epithelial lesion
-  2 -> Low squamous intra-epithelial lesion
-  3 -> Negative for intra-epithelial malignancy
-  4 -> Squamous cell carcinoma
+  1. High squamous intra-epithelial lesion
+  2. Low squamous intra-epithelial lesion
+  3. Negative for intra-epithelial malignancy
+  4. Squamous cell carcinoma
 
 With a total of 4000 training images and 800 images for validation.
 
