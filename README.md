@@ -47,7 +47,7 @@ It is necessary to consider the following versions of these libraries
 Make sure that other common libraries such as numpy works correctly with the other library versions.
 
 ## Dataset
-The following drive link contain the classification trained model and the datasets used for training the two stages. 
+The following drive link contain both the classification and detection trained model and the datasets used for training the two stages. 
 
 **Drive link:**  https://drive.google.com/drive/folders/1fz9-srsO7EBUKztheth8f1W_g1DAySB_?usp=sharing
 
@@ -63,4 +63,3 @@ The following drive link contain the classification trained model and the datase
   4. Squamous cell carcinoma
 
 With a total of 4000 training images and 800 images for validation.
-
