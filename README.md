@@ -48,13 +48,22 @@ With a total of 1600 training images and 400 images for validation.
 With a total of 4000 training images and 800 images for validation.
 
 ## Usage
-* The first stage model was trained using the FP_Cells.py file. In the file is commented the steps to train again other model or use the already trained model. Consider that the dataset that model uses is the DB_3.
+* The first stage model was trained using the **FP_Cells.py** file. In the file is commented the steps to train again other model or use the already trained model. Consider that the dataset that model uses is the DB_3.
 * The second stage model was trained using the follow files:
-  1. dataset.py: This file difene the paths where the images are retrieved. The dataset used in this file is the DB_4. 
-  2. utils.py: This file generate the images and save the model. It is important to add the path where the user want to save the model and the images generated from the results. In our case, the folder outputs50 is the current path.
-  3. model50.py: This file generate the ResNet50 architecture.
-  4. train.py: This file calls the previous mentioned files for starting the training.
-  5. inference.py: This file classify the images in the four different categories. The dataset used in this file is the DB_4.  
-  6. Finally: to execute the train.py file it is required the number of epochs. Execute the following command
-  
+  1. **dataset.py**: This file define the paths where the images are retrieved. The dataset used in this file is contained within the folder named **DB_4** in the Google Drive Link. 
+  his file generate the images and save the model. It is important to add the path where the user want to save the model and the images generated from the results. In our case, the folder outputs50 is the current path, as can be seen in this method extracted from said file:
+     ````
+      torch.save({
+                'epoch': epochs,
+                'model_state_dict': model.state_dict(),
+                'optimizer_state_dict': optimizer.state_dict(),
+                'loss': criterion,
+                }, 'outputs50/model.path')
+     ````
+  3. **model50.py**: This file generate the ResNet50 architecture.
+  4. **train.py**: This file calls the previous mentioned files for starting the training.
+  5. **inference.py**: This file classify the images in the four different categories. The dataset used in this file is in the folder named DB_4 and its folder named validation.  
+  6. Finally: to execute the train.py file it is required the number of epochs. For this, you have to execute the following command
+  ````
   $ python train.py --epochs "# of epochs"
+  ````
