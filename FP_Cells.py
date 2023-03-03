@@ -68,7 +68,7 @@ print("Accuracy: ",accuracy)
 
 model.save("FP_Cells"+str(accuracy)+"_epo_" + str(e)) #save model
 
-
+# Uncomment the follow code lines if you want to use the trained mode-------------------------------
 
 # predictions = model.predict(val)
 # image1 = cv2.imread( "/home/carlos/Desktop/Decimo/Titulacion_II/FP_Categories_Classification/DB_4/train/4/train_4_50.jpg")
