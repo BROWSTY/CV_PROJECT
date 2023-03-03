@@ -54,4 +54,7 @@ With a total of 4000 training images and 800 images for validation.
   2. utils.py: This file generate the images and save the model. It is important to add the path where the user want to save the model and the images generated from the results. In our case, the folder outputs50 is the current path.
   3. model50.py: This file generate the ResNet50 architecture.
   4. train.py: This file calls the previous mentioned files for starting the training.
-  5. inference.py: This file classify the images in the four different categories. The dataset used in this file is the DB_4.   
+  5. inference.py: This file classify the images in the four different categories. The dataset used in this file is the DB_4.  
+  6. Finally: to execute the train.py file it is required the number of epochs. Execute the following command
+  
+  $ python train.py --epochs "# of epochs"
