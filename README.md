@@ -9,9 +9,9 @@ be located that could lead to cervical cancer.
 
 ## Requirements
 
-Keras
+* Keras
 
-It is necessary to consider the following versions of these libraries
+* It is necessary to consider the following versions of these libraries
 
 | Library  | Version |
 | ---------| ------- |
@@ -28,7 +28,7 @@ The following drive link contain both the classification and detection trained m
 
 **Drive link:**  https://drive.google.com/drive/folders/1fz9-srsO7EBUKztheth8f1W_g1DAySB_?usp=sharing
 
---- Content --- 
+**Content:** 
 
 * DB_3
    Database classified into two categories: 
