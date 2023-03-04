@@ -11,7 +11,7 @@ be located that could lead to cervical cancer.
 
 * Keras
 
-* It is necessary to consider the following versions of these libraries
+Moreover, it is necessary to use and consider the following versions of these libraries
 
 | Library  | Version |
 | ---------| ------- |
