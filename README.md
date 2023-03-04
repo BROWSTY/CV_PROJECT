@@ -33,8 +33,7 @@ The following drive link contain both the classification and detection trained m
 * DB_3
    Database classified into two categories: 
    1. Cell images
-   2. Test background images
-With a total of 1600 training images and 400 images for validation.
+   2. Test background images with a total of 1600 training images and 400 images for validation.
 
 * DB_4
    Isolated cell database. Images corresponding to liquid-based Pap smears.
