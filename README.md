@@ -53,7 +53,8 @@ In order to run the project, the following information should be taken into acco
 
 * The second stage model was trained using the following files:
   1. **dataset.py**: This file define the paths where the images are retrieved. The dataset used in this file is contained within the folder named **DB_4**. 
-  2. **utils.py**: This file generate the images and save the model. It is important to add the path where the user want to save the model and the images generated from the results. In our case, the folder `outputs50` is the current path, as can be seen in this method extracted from said file:
+  
+  2. **utils.py**. This file generate the result images and save the model. It is important to add the path where the user want to save the model and the images generated from the results. In our case, the folder `outputs50` is the current path, as can be seen in this method extracted from said file:
      ````
       torch.save({
                 'epoch': epochs,
