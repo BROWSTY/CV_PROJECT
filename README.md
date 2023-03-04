@@ -9,7 +9,7 @@ be located that could lead to cervical cancer.
 
 ## Requirements
 
-keras
+Keras
 
 It is necessary to consider the following versions of these libraries
 
@@ -45,13 +45,16 @@ With a total of 1600 training images and 400 images for validation.
   3. Negative for intra-epithelial malignancy
   4. Squamous cell carcinoma
 
-With a total of 4000 training images and 800 images for validation.
+Both folders contain your images for both training and validation with a total of 4000 training images and 800 validation images.
 
 ## Usage
-* The first stage model was trained using the **FP_Cells.py** file. In the file is commented the steps to train again other model or use the already trained model. Consider that the dataset that model uses is the DB_3.
-* The second stage model was trained using the follow files:
-  1. **dataset.py**: This file define the paths where the images are retrieved. The dataset used in this file is contained within the folder named **DB_4** in the Google Drive Link. 
-  his file generate the images and save the model. It is important to add the path where the user want to save the model and the images generated from the results. In our case, the folder outputs50 is the current path, as can be seen in this method extracted from said file:
+In order to run the project, the following information should be taken into account:
+
+* The first stage model was trained using the **FP_Cells.py** file. In the file, is commented the steps to train again other model or use the already trained model. Consider that the dataset that model uses is in the folder **DB_3** in the Google Drive Link. 
+
+* The second stage model was trained using the following files:
+  1. **dataset.py**: This file define the paths where the images are retrieved. The dataset used in this file is contained within the folder named **DB_4**. 
+  his file generate the images and save the model. It is important to add the path where the user want to save the model and the images generated from the results. In our case, the folder `outputs50` is the current path, as can be seen in this method extracted from said file:
      ````
       torch.save({
                 'epoch': epochs,
@@ -63,7 +66,15 @@ With a total of 4000 training images and 800 images for validation.
   3. **model50.py**: This file generate the ResNet50 architecture.
   4. **train.py**: This file calls the previous mentioned files for starting the training.
   5. **inference.py**: This file classify the images in the four different categories. The dataset used in this file is in the folder named DB_4 and its folder named validation.  
-  6. Finally: to execute the train.py file it is required the number of epochs. For this, you have to execute the following command
-  ````
+
+## Run and testing the proyect
+
+To finally run the project, taking into account the considerations in the Usage section, you just have to run the following command to train our model with the number of epochs you want:
+ ````
   $ python train.py --epochs "# of epochs"
+  ````
+
+and finally you must run the following command test it:
+  ````
+  $ python inference.py
   ````
