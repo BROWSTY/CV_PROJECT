@@ -67,9 +67,9 @@ In order to run the project, the following information should be taken into acco
   4. **train.py**: This file calls the previous mentioned files for starting the training.
   5. **inference.py**: This file classify the images in the four different categories. The dataset used in this file is in the folder named DB_4 and its folder named validation.  
 
-## Run and testing the proyect
+## Run and testing the project
 
-To finally run the project, taking into account the considerations in the Usage section, you just have to run the following command to train our model with the number of epochs you want:
+To finally run the project, taking into account the considerations in the **Usage** section, you just have to run the following command to train our model with the number of epochs you want:
  ````
   $ python train.py --epochs "# of epochs"
   ````
