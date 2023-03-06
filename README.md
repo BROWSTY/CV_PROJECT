@@ -1,7 +1,7 @@
 # Analysis of Cytology Pap Smear Images Using Two-Stage CNNs
 
 ## Overview
-This paper proposes a automate screening for pap smear using a two stages CNNs which implement a pre-trained convolutional neural network,  this will allow us to obtain better results and a CNN with more accurate predictions when classify malignant cells that could lead to cervical cancer.
+This paper proposes a automate screening for pap smear tests using a two stages CNNs which implement a pre-trained convolutional neural network,  this will allow us to obtain better results and a CNN with more accurate predictions when classify malignant cells that could lead to cervical cancer.
 
 ## Requirements
 
